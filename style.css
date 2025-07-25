@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.menu li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu li.active {
+  background: #ddd;
+  font-weight: bold;
+}
+
+/* Main content */
+.main-content {
+  flex: 2;
+  padding: 20px;
+  background: #fafafa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btn-tambah {
+  padding: 5px 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-tabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.search-tabs input {
+  flex: 1;
+  padding: 5px;
+}
+
+.tabs button {
+  padding: 5px 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #aaa;
+  color: white;
+}
+
+.discussion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.discussion-card {
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #ccc;
+}
+
+/* Detail Panel */
+.detail-panel {
+  flex: 1.5;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  background: white;
+}
+
+.detail-panel h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.comment-input {
+  margin-top: 20px;
+  display: flex;
+}
+
+.comment-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.comment-input button {
+  padding: 8px 12px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BKLTI Diskusi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Dhani Putra</h2>
+      <ul class="menu">
+        <li class="active">Diskusi <span>190</span></li>
+        <li>Kontak Masuk <span>23</span></li>
+        <li>Sampah <span>3</span></li>
+        <li>Pesan Berbintang <span>15</span></li>
+        <li>Arsip <span>1</span></li>
+        <li>Sosial <span>540</span></li>
+        <li>Konsultasi <span>5</span></li>
+        <li>Panggilan <span>2</span></li>
+        <li>Perbaharuan</li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <h1>Diskusi</h1>
+        <button class="btn-tambah">Tambah +</button>
+      </header>
+
+      <div class="search-tabs">
+        <input type="text" placeholder="Cari" />
+        <div class="tabs">
+          <button class="active">Terbaru</button>
+          <button>Terjawab</button>
+          <button>Bounty</button>
+          <button>Lagi</button>
+        </div>
+      </div>
+
+      <div class="discussion-list">
+        <div class="discussion-card">
+          <p><strong>Aplikasi PHP Tiba-tiba menjadi tidak responsif hingga kontainer dimulai ulang</strong></p>
+          <p>Saya sedang mengembangkan aplikasi PHP dan sedang mencari penyebab...</p>
+          <small>5 Menjawab · 450 Dilihat · 1 jam yang lalu</small>
+        </div>
+        <div class="discussion-card">
+          <p><strong>Aplikasi PHP Tiba-tiba menjadi tidak responsif hingga kontainer dimulai ulang</strong></p>
+          <p>Saya sedang mengembangkan aplikasi PHP dan sedang mencari penyebab...</p>
+          <small>10 Menjawab · 950 Dilihat · 1 jam yang lalu</small>
+        </div>
+      </div>
+    </main>
+
+    <section class="detail-panel">
+      <h2>Aplikasi PHP Tiba-tiba menjadi tidak responsif...</h2>
+      <p>Saya sedang mengelola aplikasi PHP dan mencoba mencari penyebab kesalahan...</p>
+      <div class="comment">
+        <p><strong>@dhnnnn</strong> - 5 menit yang lalu</p>
+        <p>Dilihat dari pesan log max_children...</p>
+      </div>
+      <div class="comment-input">
+        <input type="text" placeholder="Ketik..." />
+        <button>➤</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
